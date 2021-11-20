@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aftebi.mynews" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_mynews"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_mynews_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyNews" >
+        <activity
+            android:name=".activity.SportActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sport"
+            android:theme="@style/Theme.MyNews.NoActionBar" />
+        <activity
+            android:name=".activity.ModifyTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SportNewsDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SportNewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TechNewsDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.TechNewsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AddTaskActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.TodoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.NewsDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.WeatherActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RegistrationActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NewsActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

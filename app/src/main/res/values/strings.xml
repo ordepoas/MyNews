@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">My News</string>
+    <string name="update_news">Últimas Notícias</string>
+    <string name="update_weather">Tempo</string>
+    <string name="title">Título</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">Entrar</string>
+    <string name="register">Registar</string>
+    <string name="email">Email</string>
+    <string name="password">Palavra-passe</string>
+    <string name="name">Nome</string>
+    <string name="logout">Sair</string>
+    <string name="todo">A fazer</string>
+    <string name="sports">Desporto</string>
+    <string name="tech">Tecnologia</string>
+    <string name="add_task">Adicionar Tarefa</string>
+    <string name="modify_task">Modificar Tarefa</string>
+    <string name="description">Tarefa</string>
+    <string name="urgent">Urgente</string>
+    <string name="normal">Normal</string>
+    <string name="low">Baixa</string>
+    <string name="sport">Desporto</string>
+    <string-array name="daysOfTheWeek">
+        <item>Domingo</item>
+        <item>Segunda-feira</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+        <item>Sábado</item>
+    </string-array>
+    <string name="title_activity_sport">Desporto</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tab_text_1">Notícas</string>
+    <string name="tab_text_2">Zapping</string>
+</resources>
