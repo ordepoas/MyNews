@@ -5,7 +5,7 @@
 <p>- Tech News</p>
 <p>- Sports News (and also information about sport transmissions)</p>
 <br>
-<p>I aloso added a To-do List</p>
+<p>I also added a To-do List</p>
 <hr>
 <h5>Libraries used</h5>
 <ul>
